@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(77, 157, 237);
+  height: 60px;
+  text-align: center;
+}
+header h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  width: 70vw;
+  margin: auto;
+}
+.tab {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  gap: 10px;
+}
+.tab button a {
+  all: unset;
+}
+.tab button {
+  padding: 8px;
+  border: none;
+  background-color: rgb(33, 127, 235);
+  color: white;
+  cursor: pointer;
+}
+.container {
+  border: 1px solid lightgray;
+  height: 60vh;
+  position: relative;
+}
+.btn1{
+  border: none;
+  padding: 8px 20px 8px 20px;
+  background-color: transparent;
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+.btn2{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  border: none;
+  background-color: rgb(5, 91, 161);
+  color: white;
+  padding: 8px 30px 8px 30px;
+  cursor: pointer;
+}
+.table{
+  border: 1px solid rgb(85, 84, 84);
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.thead {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(40, 152, 232);
+  color: white;
+}
+.thead div{
+  width: 24%;
+  padding: 5px 0 5px 0;
+  border: 1px solid rgb(83, 82, 82);
+}
+.input-container{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.input-container div{
+  width: 24%;
+  padding: 5px 0 5px 0;
+  border: 1px solid rgb(63, 62, 62);
+}
+.input-container input{
+  width: 90%;
+  margin-left: 5%;
+  padding: 2px 0 2px 0;
+}
+.retrieve-input{
+  width: 100%;
+  position: absolute;
+  top: 50px;
+  left: 10px;
+ 
+}
+.retrieve-input input{
+padding: 8px;
+width: 30%;
+}
+.retrieve-input button{
+  border: none;
+background-color: rgb(13, 78, 176);
+color: white;
+padding: 10px 15px 10px 15px;
+cursor: pointer;
+}
+.output{
+  position: absolute;
+  top: 7rem;
+  left: 10px;
+  border: 1px solid rgb(173, 166, 166);
+  padding: 5px 10px 5px 0;
+}
+.output p{
+  line-height: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.success{
+  position: absolute;
+  color: rgb(23, 83, 5);
+  left: 35%;
+  bottom: 2rem;
+  
+}
